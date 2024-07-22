@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css2?family=Hind:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: "Hind", sans-serif;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #191919;
+}
+h1 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.heading {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 16px;
+}
+input {
+  border: none;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 2px solid #989692;
+  padding: 11px 16px;
+  width: 269px;
+}
+textarea {
+  border: none;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 2px solid #989692;
+  padding: 11px 16px;
+  padding-bottom: 86px;
+}
+::placeholder {
+  color: #989692;
+  font-size: 14px;
+  font-family: "Hind";
+}
+.btns {
+  display: flex;
+  gap: 16px;
+}
+button {
+  font-weight: 500;
+  font-family: "Hind";
+  border: none;
+  width: 268px;
+  height: 46px;
+  border-radius: 8px;
+}
+
+.btn1 {
+  border: 2px solid #989692;
+  background-color: transparent;
+}
+.btn2 {
+  background-color: #a020f0;
+  color: white;
+}
